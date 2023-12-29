@@ -1,17 +1,24 @@
 # DeCrypt Functionality
-DeCrypt was developed using Python and React.js. Employs usage of Covalent and Openai APIs, amongst others. Utilises fine-tuned GPT 3.5 turbo model for increased interactivity. 
- 
- • Functionality:
-  ○ live sharpe ratio calculations by specified period
-  ○ live risk/volatility calculations
-  ○ filtering tokens by
-   §  value
-   §  type and so on
-  ○ Profit and loss calculations
-   § Quote p&l - change in market value of assets over a certain period
-   § Balance p&l - change in current balance over a certain period
-   § Currency conversions updated as of 06.12.23
-  ○ Analysis & consultation of all outputs from DeCrypt chatbot
-   § Contains message memory of 5 and can output 500 tokens of text per response
-  ○ Price change analysis of individual tokens and overall tokens
-  ○ Holdings analysis, both current holdings and holdings 24hours ago
+DeCrypt is a chatbot developed using Python and React.js. It integrates Covalent and OpenAI APIs amongst others, featuring a fine-tuned GPT-3.5 turbo model for enhanced interactivity. Designed for cryptocurrency enthusiasts, DeCrypt offers real-time financial analytics and decision support.
+
+Key Functionalities:
+
+Live Financial Analytics: Compute live Sharpe ratio and risk/volatility metrics for specified periods.
+
+Token Filtering: Filter cryptocurrencies by value, type, and other criteria.
+
+Profit and Loss Calculations:
+Quote P&L: Track market value changes of assets over specific periods.
+Balance P&L: Monitor changes in current balances.
+Real-time currency conversion (data as of 06.12.23).
+
+Advanced Analysis: In-depth analysis and consultation of all outputs, with a memory of 5 messages and a 500-token response capability.
+
+Price Change Analysis: Examine price fluctuations for individual and overall tokens.
+
+Holdings Analysis: Review current holdings and compare with 24-hour historical data.
+
+Technologies Used:
+Programming Languages: Python, JavaScript (React.js)
+APIs: Covalent, OpenAI, Moralis, Deribit, Cryptocompare
+AI Model: Integrated GPT-3.5 Turbo for enhanced interactivity
